@@ -65,10 +65,17 @@ Aggregate csv files from S3 bucket and load to another S3 bucket folder.
 
 Part 2: 
 
-Now We have an aggreated file under s3://<bucketname>/output/spark. We need to load that file to Redshift cluster. 
+Now We have an aggreated file under s3://<bucketname>/output/spark. We need to load that file to Redshift cluster. We will use AWS Glue to t load data from S3 to Redshift table. 
 
 
-   1. 
+   1. Create a Redshift cluster.
+   
+   2. Create a table to load data to that table:
+   
+      create table res_tbl(ftr text, count int)
+   
+   3. Create AWSGluerole IAM role with the below policies
 
+      <img width="1129" alt="Screen Shot 2022-11-29 at 11 12 59 AM" src="https://user-images.githubusercontent.com/28351206/204582673-b454bbd6-cb7e-4dcb-b9e7-6b55e8832396.png">
 
  
