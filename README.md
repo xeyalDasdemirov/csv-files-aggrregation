@@ -78,4 +78,13 @@ Now We have an aggreated file under s3://<bucketname>/output/spark. We need to l
 
       <img width="1129" alt="Screen Shot 2022-11-29 at 11 12 59 AM" src="https://user-images.githubusercontent.com/28351206/204582673-b454bbd6-cb7e-4dcb-b9e7-6b55e8832396.png">
 
- 
+   4. Create a Glue crawler for S3 data using s3://<bucketname>/output/spark and the crawler. 
+   
+   5. Create Redshift connection in AWS Glue. 
+   
+   5. Create a Glue crawler for Redshift table using res_tbl table and the crawler. 
+   
+   6. Create a Glue ETL job based on source(S3 data source) and target (Redshift table data source) and run the job.
+   
+After successfully completing the job you will see the data in Redshift table.
+
