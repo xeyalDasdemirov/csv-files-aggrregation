@@ -50,7 +50,7 @@ Aggregate csv files from S3 bucket and load to another S3 bucket folder.
             2.11 Click Add.
             
   
-  Once the job completes successfully, you navigate to the output folder to check if an output/ with data is created.
+    Once the job completes successfully, you navigate to the output folder to check if an output/ with data is created.
   
   
 
