@@ -24,6 +24,7 @@ Aggregate csv files from S3 bucket and load to another S3 bucket folder.
    Option 1: spark-submit spark-agg.py s3://<YOUR-BUCKET>/input/ s3://<YOUR-BUCKET>/output/spark
    
    Option 2: 
+   
             2.1 In the AWS console, navigate to the S3 bucket you created in the previous section.
    
             2.2 Create a file named spark-agg.py on your computer.
